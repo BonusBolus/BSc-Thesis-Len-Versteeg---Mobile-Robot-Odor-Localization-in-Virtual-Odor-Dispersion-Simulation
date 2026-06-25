@@ -35,14 +35,6 @@ replay_run = False
 replay_path= r"BHGS_NOISe_presentation_final20260622_232446" #folder of the saved run
 replay_robot_name = "visual_robot" #name of robot you want to rerun - robots found in robot_seeds and config
 
-# vISUALIZATION SETTINGS
-# ---------------------------------------------------------
-visualize_live = True # show live simulation
-save_vid = False # save animation to file - no live preview
-# save reproducability data from run [seed, state] - non explicitly needed for batch and sweep - master seed always save
-save_run_results = True  
-save_full_run_log = False # full logs + concentration
-max_time = 400 #max search time
 
 # ============================================================
 # RUN MODE - BATCH/SWEEP
