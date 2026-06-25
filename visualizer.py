@@ -219,7 +219,7 @@ class ConcHeatMap2D(BasePlot):
         dim3_map = {0: "x", 1: "y", 2: "z"}
         dim3_name = dim3_map[self.dim3]
         
-        self.title_text = self.ax.settitle(f'Odor concentration slice of {self.slice_label} at {dim3_name} = {self.slice_height} [m]')
+        self.title_text = self.ax.set_title(f'Odor concentration slice of {self.slice_label} at {dim3_name} = {self.slice_height} [m]')
         
         # Draw Robot
         # ---------------------------------------------------------
@@ -438,7 +438,7 @@ class ConcPoint1D(BasePlot):
         else: 
             self.ax.set_ylabel("Concentration (mol/m^3)")
             
-        self.title_text = self.ax.settitle(f'Odor concentration at robot position: []')
+        self.title_text = self.ax.set_title(f'Odor concentration at robot position: []')
         self.ax.grid(True)
         self.ax.set_facecolor("#c0afaf")
         
@@ -484,8 +484,10 @@ class ConcPoint1D(BasePlot):
         # ---------------------------------------------------------
         self.t.append(sim_time)
 
-        if self.plotRobotC:
+        if len(robot.c_robot_history) > 0:
             self.cRobot.append(robot.c_robot_history[-1])
+        else:
+            self.cRobot.append(np.nan)
 
         if self.plotRealC:
             c_value = field.get_c_sample(
@@ -788,7 +790,7 @@ class BeliefPolarPlot(BasePlot):
         self.ax_polar.spines['polar'].set_visible(False)
         self.ax_polar.set_rlabel_position(90)
 
-        self.title = self.ax_polar.settitle(
+        self.title = self.ax_polar.set_title(
             "Directional belief", pad=14
         )
 

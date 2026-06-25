@@ -258,7 +258,7 @@ class SimRunner:
         # Step All Robots First
         # (they decide behavior based on current time)
         # ---------------------------------------------------------
-        for robot in self.robots.items():
+        for _, robot in self.robots.items():
             # visualizae must be passed since it changes if data needs to be stored
             robot.step(visualize=self.visualize)
 

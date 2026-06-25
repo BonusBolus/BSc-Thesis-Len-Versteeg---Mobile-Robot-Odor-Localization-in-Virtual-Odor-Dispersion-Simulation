@@ -74,32 +74,32 @@ percentage = True #convert all mol to percentage (0-100%)
 # Give field a name and the path to comsol txt file
 # ---------------------------------------------------------
 comsol_data = {
-    "same_off_middle_med": r"COMSOL_DATA\same\off\middle\same_off_med_middle.txt",
-    "same_off_corner_med": r"COMSOL_DATA\same\off\corner\same_off_med_corner.txt",
-    "same_off_wall_med": r"COMSOL_DATA\same\off\wall\med\same_off_med_wall.txt",
-    "same_off_wall_stand": r"COMSOL_DATA\same\off\wall\low\same_off_stand_wall.txt",
-    "same_off_wall_high": r"COMSOL_DATA\same\off\wall\high\same_off_high_wall.txt",
-    "same_cen_middle_med": r"COMSOL_DATA\same\cen\middle\same_cen_med_middle.txt",
-    "same_cen_corner_med": r"COMSOL_DATA\same\cen\corner\same_cen_med_corner.txt",
-    "same_cen_wall_med": r"COMSOL_DATA\same\cen\wall\med\same_cen_med_wall.txt",
-    "same_cen_wall_stand": r"COMSOL_DATA\same\cen\wall\low\same_cen_stand_wall.txt",
-    "same_cen_wall_high": r"COMSOL_DATA\same\cen\wall\high\same_cen_high_wall.txt",
-    "oppo_off_middle_med": r"COMSOL_DATA\oppo\off\middle\oppo_off_med_middle.txt",
-    "oppo_off_corner_med": r"COMSOL_DATA\oppo\off\corner\oppo_off_med_corner.txt",
-    "oppo_off_wall_med": r"COMSOL_DATA\oppo\off\wall\med\oppo_off_med_wall.txt",
-    "oppo_off_wall_stand": r"COMSOL_DATA\oppo\off\wall\low\oppo_off_stand_wall.txt",
-    "oppo_off_wall_high": r"COMSOL_DATA\oppo\off\wall\high\oppo_off_high_wall.txt",
-    "oppo_cen_middle_med": r"COMSOL_DATA\oppo\cen\middle\oppo_cen_med_middle.txt",
-    "oppo_cen_corner_med": r"COMSOL_DATA\oppo\cen\corner\oppo_cen_med_corner.txt",
-    "oppo_cen_wall_med": r"COMSOL_DATA\oppo\cen\wall\med\oppo_cen_med_wall.txt",
-    "oppo_cen_wall_stand": r"COMSOL_DATA\oppo\cen\wall\low\oppo_cen_stand_wall.txt",
-    "oppo_cen_wall_high": r"COMSOL_DATA\oppo\cen\wall\high\oppo_cen_high_wall.txt"
+    "same_off_middle_med": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\same\off\middle\same_off_med_middle.txt",
+    "same_off_corner_med": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\same\off\corner\same_off_med_corner.txt",
+    "same_off_wall_med": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\same\off\wall\med\DYNAMIC_odorIntFlow_medVel_switch3_odorPosLow_VentSameOffset_allDatA.txt",
+    "same_off_wall_stand": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\same\off\wall\low\same_off_stand_wall.txt",
+    "same_off_wall_high": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\same\off\wall\high\same_off_high_wall.txt",
+    "same_cen_middle_med": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\same\cen\middle\same_cen_med_middle.txt",
+    "same_cen_corner_med": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\same\cen\corner\same_cen_med_corner.txt",
+    "same_cen_wall_med": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\same\cen\wall\med\DYNAMIC_odorOutFlow_medVel_switch3_odorPosLow_VentSame_allData.txt",
+    "same_cen_wall_stand": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\same\cen\wall\low\same_cen_stand_wall.txt",
+    "same_cen_wall_high": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\same\cen\wall\high\same_cen_high_wall.txt",
+    "oppo_off_middle_med": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\oppo\off\middle\oppo_off_med_middle.txt",
+    "oppo_off_corner_med": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\oppo\off\corner\oppo_off_med_corner.txt",
+    "oppo_off_wall_med": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\oppo\off\wall\med\oppo_off_med_wall.txt",
+    "oppo_off_wall_stand": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\oppo\off\wall\low\oppo_off_stand_wall.txt",
+    "oppo_off_wall_high": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\oppo\off\wall\high\oppo_off_high_wall.txt",
+    "oppo_cen_middle_med": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\oppo\cen\middle\oppo_cen_med_middle.txt",
+    "oppo_cen_corner_med": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\oppo\cen\corner\oppo_cen_med_corner.txt",
+    "oppo_cen_wall_med": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\oppo\cen\wall\med\oppo_cen_med_wall.txt",
+    "oppo_cen_wall_stand": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\oppo\cen\wall\low\oppo_cen_stand_wall.txt",
+    "oppo_cen_wall_high": r"C:\Users\lenve\Documents\Local Personal Len\BSc\COMSOL\COMSOL_V5_FINAL\oppo\cen\wall\high\oppo_cen_high_wall.txt"
 }
 
 # Select fields to load in
 # ---------------------------------------------------------
 if single_run:
-    selected_fields = ("oppo_cen_corner_med",)
+    selected_fields = ("oppo_cen_middle_med",)
 elif (single_run or replay_run) and (batch_run or sweep_run):
     ValueError("Single run or replay run can not be ran in combination with batch/sweep runs") 
 else:
@@ -145,10 +145,10 @@ robot_physics = {
     "percentage": True, #Concentrations converted to percentage
     "interpolate": True, #Linearly interpolate concentration field the robot samples from
     "c_min": 1e-5, #Threshold of concentration that will be viualized - and can be detected by robot. 
-    "noise": True #add noise
+    "noise": False #add noise
 }
 
-starting_pos = [2, 2.7, robot_physics["robot_height"]] # will be overwritten if random_start = True in robot config 
+starting_pos = [1.5, 1.5, robot_physics["robot_height"]] # will be overwritten if random_start = True in robot config 
 
 # ============================================================
 # 3. CREATE ROBOTS
